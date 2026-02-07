@@ -110,7 +110,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-import dnanstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanstdev@deno/mod.js';
+import dnanstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanstdev@v0.1.1-deno/mod.js';
 ```
 
 #### dnanstdev( N, correction, x, strideX )
@@ -211,7 +211,7 @@ var v = dnanstdev.ndarray( 4, 1, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import dnanstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanstdev@deno/mod.js';
+import dnanstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanstdev@v0.1.1-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
