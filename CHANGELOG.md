@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-11)
+## Unreleased (2026-04-19)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`69e86b9`](https://github.com/stdlib-js/stdlib/commit/69e86b98fee48721e51c70014a519f1f09d0c0da) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanstdev` [(#11600)](https://github.com/stdlib-js/stdlib/pull/11600) _(by Uday Kakade)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
 -   [`158060f`](https://github.com/stdlib-js/stdlib/commit/158060f8c512323eac4cf83d7be4453187752719) - **chore:** fix C lint errors [(#10625)](https://github.com/stdlib-js/stdlib/pull/10625) _(by Geo Daoyu)_
 
@@ -37,10 +38,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Geo Daoyu
 -   Karan Anand
+-   Uday Kakade
 
 </section>
 
